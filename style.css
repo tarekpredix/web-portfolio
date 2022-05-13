@@ -32,3 +32,24 @@ section{
     color: white;
     font-weight: 700;
 }
+
+.navbar {
+	height: 190px;
+	width: 100%;
+	background: #001a33;
+}
+
+.navitem {
+	text-decoration: none;
+	color: white;
+	float: right;
+	margin: 15px 8px 5px;
+	padding: 6px 12px;
+	border: 1px solid cyan;
+	border-radius: 15px;
+}
+.navitem:hover {
+	text-decoration: none;
+	background: cyan;
+	color: black;
+}
